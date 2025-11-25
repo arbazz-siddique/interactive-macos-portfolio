@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+reviews:
+  auto_review:
+    enabled: true
+    drafts: true
+    ignore_title_keywords:
+      - wip
+      - test
+      - temp
+    labels: []             # empty list = review ALL PRs
+    base_branches:
+      - ".*"               # review PRs from ANY branch
+  auto_assign_reviewers: true
+
+summary:
+  enabled: true            # enable high-level summaries
