@@ -225,7 +225,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "AI_TRIP_PLANNER",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,25 +233,26 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "AI_TRIP_PLANNER.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "About\n" +
+                        "This is an AI-powered trip planning platform where you can create personalized travel plans ",
+                        "based on your budget, location, and number of travelers.",
+                        "The platform suggests the best and most affordable destinations,",
+                        "along with hidden gems and unique attractions — all tailored to fit within your budget.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "aitripplaner.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://ai-trip-planner-eta-blue.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
@@ -278,7 +279,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "DocuMind RAG",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,25 +287,25 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "DocuMind-Scalable-RAG-Chatbot-with-PDF-AUDIO-Uploads.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "A production-grade Retrieval-Augmented Generation (RAG)",
+                        " chatbot that lets users upload PDFs, queues them for background processing,",
+                        "and transforms them into semantic embeddings stored in Qdrant. When users ask questions,",
+                        "the system retrieves the most relevant chunks, provides them as context to GPT, and returns accurate, source-grounded answers",
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "docmind.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://docu-mind-scalable-rag-chatbot-with.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
@@ -331,7 +332,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "AI-Website-Builder-Morphix",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,25 +340,25 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "ai-website-builder-Morphix.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "A full-stack AI SaaS that lets users generate,",
+                        "edit, and deploy complete websites in one click. It uses AI to build responsive designs,",
+                        "create content and images, and offers inline editing without regenerating code. ",
+                        "Users can manage projects, customize sites, and download deploy-ready code instantly.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "morphix.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://ai-website-builder-morphix.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
