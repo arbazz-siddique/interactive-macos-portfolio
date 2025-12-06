@@ -228,7 +228,7 @@ const WORK_LOCATION = {
             name: "AI_TRIP_PLANNER",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-5", // icon position inside Finder
+            position: "top-0 left-0", // icon position inside Finder
             windowPosition: "top-[5vh] left-5", // optional: Finder window position
             children: [
                 {
@@ -257,12 +257,68 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "ai_trip_planner.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
+                    imageUrl: "/images/tripplanner.png",
+                },
+                {
+                    id: 5,
+                    name: "Design.fig",
+                    icon: "/images/plain.png",
+                    kind: "file",
+                    fileType: "fig",
+                    href: "https://google.com",
+                    position: "top-60 right-20",
+                },
+            ],
+        },
+
+        //project 7
+
+        {
+            id: 2,
+            name: "Next Mart E-Commerce",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-10 left-40", // icon position inside Finder
+            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            children: [
+                {
+                    id: 1,
+                    name: "nextMart.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "NextMart is a multi-vendor e-commerce platform built with Next.js, offering a scalable and modern shopping experience for both buyers and sellers.",
+                        "The platform features robust role-based access, supporting Admin, Seller, Customer, and Premium user flows with tailored dashboards and privileges.",
+                        "Users can browse products, manage carts, place orders, and access secure authentication powered by industry-standard best practices.",
+                        "Premium members enjoy exclusive discounts through a dynamic coupon system, enhancing engagement and repeat purchases.",
+                        "With a clean UI, optimized performance, and a modular architecture, NextMart delivers a reliable foundation for large-scale commerce applications."
+                    ]
+
+                },
+                {
+                    id: 2,
+                    name: "nextmart.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://next-mart-beryl.vercel.app/",
+                    position: "top-10 right-20",
+                },
+                {
+                    id: 4,
+                    name: "nextmart.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-80",
+                    imageUrl: "/images/nextmart.png",
                 },
                 {
                     id: 5,
@@ -282,7 +338,7 @@ const WORK_LOCATION = {
             name: "DocuMind RAG",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 right-80",
+            position: "top-48 right-70",
             windowPosition: "top-[20vh] left-7",
             children: [
                 {
@@ -293,6 +349,7 @@ const WORK_LOCATION = {
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
+                        "About\n" +
                         "A production-grade Retrieval-Augmented Generation (RAG)",
                         " chatbot that lets users upload PDFs, queues them for background processing,",
                         "and transforms them into semantic embeddings stored in Qdrant. When users ask questions,",
@@ -310,12 +367,12 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "docmind.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "/images/docmind.png",
                 },
                 {
                     id: 5,
@@ -346,6 +403,7 @@ const WORK_LOCATION = {
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
+                        "About\n" +
                         "A full-stack AI SaaS that lets users generate,",
                         "edit, and deploy complete websites in one click. It uses AI to build responsive designs,",
                         "create content and images, and offers inline editing without regenerating code. ",
@@ -363,12 +421,12 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "morphix.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    imageUrl: "/images/morphix1.png",
                 },
                 {
                     id: 5,
@@ -381,6 +439,174 @@ const WORK_LOCATION = {
                 },
             ],
         },
+
+        // project 4
+        {
+            id: 8,
+            name: "AI-Mock-Interviews",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-50 left-[-15px]",
+            windowPosition: "top-[33vh] left-7",
+            children: [
+                {
+                    id: 1,
+                    name: "ai-mock-interview.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "About\n" +
+                        "A full-stack AI mock interview platform where users securely log in through Clerk and practice real technical or behavioral interviews.",
+                        "Powered by VAPI, the system simulates real-time, voice-driven interviews and adapts to the user’s chosen format — Technical, Behavioral, or Mixed.",
+                        "Users can select the number of questions, and the AI conducts a structured interview with dynamic scenario-based prompts and follow-ups.",
+                        "After the session, the platform generates a detailed AI report including feedback, communication score, technical accuracy, and weak areas with percentage-based improvement insights.",
+                        "The result is a fully automated, data-backed interview prep experience designed to help users track progress, improve clarity, and boost their chances of real-world success."
+                    ]
+                },
+                {
+                    id: 2,
+                    name: "aimockinterview.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://ai-mock-interviews-sigma-one.vercel.app/",
+                    position: "top-10 right-20",
+                },
+                {
+                    id: 4,
+                    name: "AI_Interview.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-80",
+                    imageUrl: "/images/aiinterview.png",
+                },
+                {
+                    id: 5,
+                    name: "Design.fig",
+                    icon: "/images/plain.png",
+                    kind: "file",
+                    fileType: "fig",
+                    href: "https://google.com",
+                    position: "top-60 right-20",
+                },
+            ],
+        },
+
+        // project 5
+        {
+            id: 9,
+            name: "converso",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-50 left-60",
+            windowPosition: "top-[33vh] left-7",
+            children: [
+                {
+                    id: 1,
+                    name: "converso.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "About\n" +
+                        "Converso is an AI-powered learning SaaS platform that delivers real-time, voice-driven lessons tailored to each user's goals and skill level.",
+                        "Built with Next.js, TypeScript, Supabase, Clerk, Stripe, and Tailwind, the platform combines powerful backend workflows with a modern, responsive UI.",
+                        "Users interact with intelligent AI tutors capable of explaining concepts, answering questions, and guiding learners through personalized study paths.",
+                        "The system supports secure authentication, subscription-based access, progress tracking, and dynamic lesson generation designed to accelerate learning.",
+                        "Converso provides a seamless, immersive, and adaptive learning experience — turning AI into a personal tutor available anytime."
+                    ]
+
+                },
+                {
+                    id: 2,
+                    name: "converso.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://converso-ai-learning-platform-k4yb.vercel.app/",
+                    position: "top-10 right-20",
+                },
+                {
+                    id: 4,
+                    name: "converso.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-80",
+                    imageUrl: "/images/converso.png",
+                },
+                {
+                    id: 5,
+                    name: "Design.fig",
+                    icon: "/images/plain.png",
+                    kind: "file",
+                    fileType: "fig",
+                    href: "https://google.com",
+                    position: "top-60 right-20",
+                },
+            ],
+        },
+
+        // project 6
+        {
+            id: 10,
+            name: "AI-Toolkit-Hub",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-50 left-85",
+            windowPosition: "top-[33vh] left-7",
+            children: [
+                {
+                    id: 1,
+                    name: "toolkit.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "About\n" +
+                        "AI Toolkit Hub is a powerful AI-driven SaaS platform built using the PERN stack, designed to simplify content creation and creativity workflows.",
+                        "Users can generate high-quality blogs, create AI images, edit existing content, and even analyze or improve their resumes — all within a single unified dashboard.",
+                        "The platform supports a collaborative creative community where users can share their work, get feedback, and explore ideas from others.",
+                        "With a modern UI, seamless workflows, and multiple AI utilities integrated into one hub, AI Toolkit Hub makes productivity faster, smarter, and more accessible for everyone."
+                    ]
+
+
+                },
+                {
+                    id: 2,
+                    name: "toolkit.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://ai-toolkit-hub.vercel.app/ai",
+                    position: "top-10 right-20",
+                },
+                {
+                    id: 4,
+                    name: "toolkit.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-80",
+                    imageUrl: "/images/toolkit.png",
+                },
+                {
+                    id: 5,
+                    name: "Design.fig",
+                    icon: "/images/plain.png",
+                    kind: "file",
+                    fileType: "fig",
+                    href: "https://google.com",
+                    position: "top-60 right-20",
+                },
+            ],
+        },
+
     ],
 };
 
@@ -398,7 +624,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/arbazz.jpg",
         },
         {
             id: 2,
@@ -407,7 +633,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/arbazz4.jpg",
         },
         {
             id: 3,
@@ -416,7 +642,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/arbazz5.jpg",
         },
         {
             id: 4,
@@ -426,13 +652,13 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/arbazz4.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
-            ],
+                "Hey! I'm Arbazz 👋 — a full-stack developer who somehow went from fixing console errors to building AI platforms, RAG chatbots, and web apps that actually behave themselves.",
+                "I love working with React, Next.js, Node.js, and PostgreSQL, and I'm happiest when turning ideas into clean, scalable products that feel like a little bit of magic.",
+                "Every project pushes me to grow, break limits, and remember why I fell in love with building things in the first place.",
+                "And when I’m not coding, I’m either fixing 1AM bugs or pretending I’ll watch the new Stranger Things season — but let’s be honest, the real monster is still hiding in my code 👀😂"
+            ]
         },
     ],
 };
@@ -450,6 +676,7 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
+            imageUrl: "/files/resume.pdf",
             // you can add `href` if you want to open a hosted resume
             // href: "/your/resume/path.pdf",
         },
