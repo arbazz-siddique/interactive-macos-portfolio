@@ -70,7 +70,7 @@ const dockApps = [
         id: "trash",
         name: "Archive", // was "Trash"
         icon: "trash.png",
-        canOpen: false,
+        canOpen: true,
     },
 ];
 
@@ -186,21 +186,18 @@ const photosLinks = [
 ];
 
 const gallery = [
-    {
-        id: 1,
-        img: "/images/gal1.png",
-    },
+
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/arbazz.jpg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/arbazz4.jpg",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/arbazz5.jpg",
     },
 ];
 
@@ -229,7 +226,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-0 left-0", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            windowPosition: "top-[5vh] left-30", // optional: Finder window position
             children: [
                 {
                     id: 1,
@@ -284,7 +281,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-40", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            windowPosition: "top-[10vh] left-300", // optional: Finder window position
             children: [
                 {
                     id: 1,
@@ -339,7 +336,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-48 right-70",
-            windowPosition: "top-[20vh] left-7",
+            windowPosition: "top-[20vh] left-100",
             children: [
                 {
                     id: 1,
@@ -393,7 +390,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
-            windowPosition: "top-[33vh] left-7",
+            windowPosition: "top-[33vh] left-250",
             children: [
                 {
                     id: 1,
@@ -447,7 +444,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-50 left-[-15px]",
-            windowPosition: "top-[33vh] left-7",
+            windowPosition: "top-[40vh] left-70",
             children: [
                 {
                     id: 1,
@@ -502,7 +499,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-50 left-60",
-            windowPosition: "top-[33vh] left-7",
+            windowPosition: "top-[45vh] left-350",
             children: [
                 {
                     id: 1,
@@ -729,6 +726,7 @@ const WINDOW_CONFIG = {
     terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
     txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
     imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+    trash: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
 
 export { INITIAL_Z_INDEX, WINDOW_CONFIG };

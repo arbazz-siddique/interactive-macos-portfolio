@@ -2,8 +2,8 @@ import React from 'react'
 import gsap from "gsap";
 import {Draggable} from "gsap/Draggable"
 
-import {Dock, Navbar, Welcome} from "#components";
-import {Terminal, Safari, Resume, Finder, Text, Image, Contact} from "#windows"
+import {Dock, Home, Navbar, Welcome} from "#components";
+import {Terminal, Safari, Resume, Finder, Text, Image, Contact, Photos, Trash} from "#windows"
 
 
 
@@ -22,6 +22,9 @@ const App = () => {
             <Text/>
             <Image/>
             <Contact />
+            <Home/>
+            <Photos/>
+            <Trash/>
         </main>
     )
 }
